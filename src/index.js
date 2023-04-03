@@ -21,7 +21,7 @@ import reportWebVitals from "./reportWebVitals";
 //     <Game bestGameName="Dota2" />
 //   </>
 // );
-
+// 1213
 function formatDate(date) {
   return date.toLocaleDateString();
 }
