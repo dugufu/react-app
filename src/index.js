@@ -3,25 +3,6 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 
-function Welcome(props) {
-  return <h1>This is {props.name}</h1>;
-}
-
-function Game(props) {
-  return <h1>This is the best game ever : {props.bestGameName}</h1>;
-}
-
-const element = (
-  <>
-    <Welcome name="Sarah" />
-    <Welcome name="chow" />
-    <Welcome name="Xian" />
-    <Welcome name="Leh" />
-
-    <Game bestGameName="Dota2" />
-  </>
-);
-
 function formatDate(date) {
   return date.toLocaleDateString();
 }
@@ -73,6 +54,24 @@ root.render(
   />
 );
 
+// function Welcome(props) {
+//   return <h1>This is {props.name}</h1>;
+// }
+
+// function Game(props) {
+//   return <h1>This is the best game ever : {props.bestGameName}</h1>;
+// }
+
+// const element = (
+//   <>
+//     <Welcome name="Sarah" />
+//     <Welcome name="chow" />
+//     <Welcome name="Xian" />
+//     <Welcome name="Leh" />
+
+//     <Game bestGameName="Dota2" />
+//   </>
+// );
 //define
 // const name = "chow";
 
