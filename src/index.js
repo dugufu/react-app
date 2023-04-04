@@ -22,6 +22,7 @@ import reportWebVitals from "./reportWebVitals";
 //   </>
 // );
 // 1213
+//add
 function formatDate(date) {
   return date.toLocaleDateString();
 }
